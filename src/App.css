@@ -15,3 +15,10 @@ body{
     height: 70vh;
     width: 80vw;
 }
+
+.toggle{
+    border: 3px solid steelblue;
+    border-radius: 15px;
+    height: 25px;
+    width: 70px;
+}

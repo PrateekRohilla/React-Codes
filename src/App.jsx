@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './Components/Counter'
 import UserInput from './Components/UserInput'
 import ListofItems from './Components/ListofItems'
+import ToggleSwitch from './Components/ToggleSwitch'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <div className='main'>
         {/* <Counter /> */}
         {/* <UserInput /> */}
-        <ListofItems />
+        {/* <ListofItems /> */}
+        <ToggleSwitch/>
       </div>
     </>
   )
