@@ -5,6 +5,7 @@ import UserInput from './Components/UserInput'
 import ListofItems from './Components/ListofItems'
 import ToggleSwitch from './Components/ToggleSwitch'
 import FetchDisplay from './Components/Fetch&Display'
+import Timer from './Components/Timer'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
         {/* <UserInput /> */}
         {/* <ListofItems /> */}
         {/* <ToggleSwitch/> */}
-        <FetchDisplay />
+        {/* <FetchDisplay /> */}
+        <Timer />
       </div>
     </>
   )
