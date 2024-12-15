@@ -4,6 +4,7 @@ import Counter from './Components/Counter'
 import UserInput from './Components/UserInput'
 import ListofItems from './Components/ListofItems'
 import ToggleSwitch from './Components/ToggleSwitch'
+import FetchDisplay from './Components/Fetch&Display'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
         {/* <Counter /> */}
         {/* <UserInput /> */}
         {/* <ListofItems /> */}
-        <ToggleSwitch/>
+        {/* <ToggleSwitch/> */}
+        <FetchDisplay />
       </div>
     </>
   )
