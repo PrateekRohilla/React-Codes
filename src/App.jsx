@@ -7,6 +7,7 @@ import ToggleSwitch from './Components/ToggleSwitch'
 import FetchDisplay from './Components/Fetch&Display'
 import Timer from './Components/Timer'
 import ToDo1 from './Components/ToDo1'
+import ChangeBG from './Components/ChangeBG'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         {/* <ToggleSwitch/> */}
         {/* <FetchDisplay /> */}
         {/* <Timer /> */}
-        <ToDo1 />
+        {/* <ToDo1 /> */}
+        {/* <ChangeBG /> */}
       </div>
     </>
   )
