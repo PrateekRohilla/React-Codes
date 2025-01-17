@@ -8,6 +8,7 @@ import FetchDisplay from './Components/Fetch&Display'
 import Timer from './Components/Timer'
 import ToDo1 from './Components/ToDo1'
 import ChangeBG from './Components/ChangeBG'
+import RandomQuote from './Components/RandomQuote'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         {/* <Timer /> */}
         {/* <ToDo1 /> */}
         {/* <ChangeBG /> */}
+        <RandomQuote />
       </div>
     </>
   )
