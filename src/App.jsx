@@ -10,6 +10,7 @@ import ToDo1 from './Components/ToDo1'
 import ChangeBG from './Components/ChangeBG'
 import RandomQuote from './Components/RandomQuote'
 import FileUpload from './Components/FileUpload'
+import SearchBar from './Components/SearchBar'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
         {/* <ToDo1 /> */}
         {/* <ChangeBG /> */}
         {/* <RandomQuote /> */}
-        <FileUpload />
+        {/* <FileUpload /> */}
+        <SearchBar />
       </div>
     </>
   )
