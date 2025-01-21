@@ -11,8 +11,15 @@ import ChangeBG from './Components/ChangeBG'
 import RandomQuote from './Components/RandomQuote'
 import FileUpload from './Components/FileUpload'
 import SearchBar from './Components/SearchBar'
+import Pagination from './Components/Pagination'
 
 function App() {
+
+  const items = [
+    "Apple","Banana","Orange","Mango","Strawberry","Pineapple","Grapes","Watermelon",
+    "Cherry","Blueberry","Peach","Kiwi","Papaya","Guava","Lemon","Pomegranate","Coconut","Raspberry",
+    "Lychee","Apricot"
+];
 
   return (
     <>
@@ -28,7 +35,8 @@ function App() {
         {/* <ChangeBG /> */}
         {/* <RandomQuote /> */}
         {/* <FileUpload /> */}
-        <SearchBar />
+        {/* <SearchBar items={items} /> */}
+        <Pagination items={items} itemsPerPage={4} />
       </div>
     </>
   )

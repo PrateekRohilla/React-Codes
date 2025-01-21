@@ -1,33 +1,10 @@
 import react, { useState } from 'react';
 
-const SearchBar = () => {
-
-    const fruits = [
-        "Apple",
-        "Banana",
-        "Orange",
-        "Mango",
-        "Strawberry",
-        "Pineapple",
-        "Grapes",
-        "Watermelon",
-        "Cherry",
-        "Blueberry",
-        "Peach",
-        "Kiwi",
-        "Papaya",
-        "Guava",
-        "Lemon",
-        "Pomegranate",
-        "Coconut",
-        "Raspberry",
-        "Lychee",
-        "Apricot"
-    ];
+const SearchBar = ({items}) => {
 
     const [searchTerm, setSearchTerm] = useState('');
 
-    const filteredItems = fruits.filter((item) => {
+    const filteredItems = items.filter((item) => {
         item.toLowerCase().includes(searchTerm.toLowerCase())
     });
 
@@ -40,9 +17,9 @@ const SearchBar = () => {
             <br /><br />
             <input type="text" placeholder='Search Fruits ...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
             <ul>
-            {filteredItems.map((item, index) => {
+            {filteredItems.map((item, index) => 
                 <li key={index}>{item}</li>
-            })}
+            )}
             </ul>
             {console.log(searchTerm, filteredItems)}
         </>
